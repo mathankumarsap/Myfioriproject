@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<HTML>	
+	<HEAD>
+		!-- UI5 Bootstrap --->
+		<script id = "sap-ui-bootstrap"
+					src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+					data-sap-ui-libs="sap.m"
+					data-sap-ui-theme="sap_bluecrystal"></script>
+					
+		<script>
+			var oBtn = new sap.m.Button({
+				text: "Mathan",
+				press: function(){
+					alert("your first project is ready");
+				}
+			});
+				oBtn.placeAt("content");
+		</script>
+				
+	</HEAD>
+	
+	<BODY class="sapUiBody">
+		<DIV ID="content"></DIV>
+	</BODY>
+	
+</HTML>
